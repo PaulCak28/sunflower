@@ -173,7 +173,7 @@ private fun HomeTopAppBar(
         title = {
             Row(
                 Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.Center,
+                horizontalArrangement = Arrangement.Start,
             ) {
                 Text(
                     text = stringResource(id = R.string.app_name),
